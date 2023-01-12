@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="addNuevoVideo.css">
+    <title>FORMULARIO NUEVO VIDEO</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__content">
+            <div class="Logo">
+                <figure class="logo__image">
+                    <img src="./images/Logo.png" alt="Video_Tube_Logo">
+                </figure>
+            </div>
+            <div class="logo__texto">
+                <h3>
+                    VideoTube
+                </h3>
+            </div>
+        </header>
+    <h1 class="title">Agregar nuevo Video</h1>
+    <h2 class="subtitle"><a href="../index.html">Inicio</a></h2>
+    <form class="form">
+        <label for="name">Nombre Video</label>
+        <input id='name' type="text" placeholder="Digite aquí el nombre del Video">
+        <label for="autor">Nombre Autor</label>
+        <input id='autor' type="text">
+        <label for="visitas">Visitas Video</label>
+        <input id='visitas' type="text">
+        <label for="categoria">Categoria Video</label>
+        <input id='categoria' type="text">
+        <label for="video">Video</label>
+        <input id='image' type="url">
+
+
+        <button type="submit">Enviar</button>
+    </form>
+    <script src="./scripts.js" type="module"></script>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
